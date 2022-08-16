@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: purple;
+    color: white;
+    padding: 0.9em;
+    text-align: center;
+    }
+.article01 {
+    background-color:  blueviolet;
+    height:  15em;
+} 
+.article02 {
+    background-color: white;
+    padding: 3em;
+
+} 
+.article02 .section01 {
+    color: purple;
+    text-align: center;
+} 
+.article02 .section01 hr {
+    position: relative;
+    top: 0.6em;
+    border: none;
+    widows: 6em;
+    height: 0.2em;
+    background: blueviolet;
+    margin: auto;
+    
+}
+.article02 .section01 p {
+    color: black;
+    text-align: justify;
+    margin: 3em;
+}
