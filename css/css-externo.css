@@ -1,38 +1,66 @@
-*{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+* {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;    /*margem em 0 e modelo da fonte */
+}    
 header {
-    background-color: purple;
-    color: white;
-    padding: 0.9em;
-    text-align: center;
-    }
-.article01 {
-    background-color:  blueviolet;
-    height:  15em;
-} 
-.article02 {
-    background-color: white;
-    padding: 3em;
-
-} 
-.article02 .section01 {
-    color: purple;
-    text-align: center;
-} 
-.article02 .section01 hr {
-    position: relative;
-    top: 0.6em;
-    border: none;
-    widows: 6em;
-    height: 0.2em;
-    background: blueviolet;
-    margin: auto;
-    
+background-color: purple; /*cor de fundo*/
+color: white; /*cor da fonte*/
+padding: 0.9em; 
+text-align: center;
 }
-.article02 .section01 p {
-    color: black;
-    text-align: justify;
-    margin: 3em;
+.article01{
+background-color: white;
+height: 15em;
+}
+.article02{
+background-color: white;
+padding: 3em;    
+}
+.article02 .section01{
+color: purple;  
+text-align: center;  
+}
+.article02 .section01 hr{
+position: relative; 
+top: 0.6em; 
+border: none;  
+width: 6em;
+height: 0.2em;
+background: blueviolet;
+margin: auto;
+}
+.article02 .section01 p{
+color: black; 
+text-align: justify;
+margin-top: 3em;   
+}
+.group01 {
+display: inline-block; 
+color: purple;
+font-weight: bold;   
+}
+.group01 .team {
+font-size: larger; 
+}
+.group01 .subteam {
+font-size: small;
+font-weight: bold;    
+}
+#dot {
+/* display: inline-block; */ 
+height: 110px;
+width: 110px; 
+background-color: blueviolet; 
+border-width: 2px;
+border-style: solid;
+border-radius: 50%;
+margin: 2em 1em 1em 1em;
+}
+footer {
+background-color: purple;
+color: white;
+padding: 0.5em;   
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8em; 
+text-align: center;
 }
